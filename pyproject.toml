@@ -1,0 +1,19 @@
+[project]
+name = "chatwidme"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sumit", email = "sharma.s@itcomp.org" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai-agents>=0.20.0",
+]
+
+[project.scripts]
+chatwidme = "chatwidme:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
