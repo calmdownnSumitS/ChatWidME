@@ -1,0 +1,9 @@
+My name is Sumit Sharma. I was born on October 22, 1993, at 7:29 AM in Jabalpur. I speak Hindi, Hinglish, and Punjabi.I have around eight years 
+of experience in iOS development, with expertise in Swift, Objective-C, UIKit, Combine, SnapKit, MVVM, Clean Architecture, and VIPER.I previously 
+worked at Cognizant as a Software Engineer B2, and I left that job in October 2025. I am now transitioning my career from iOS development 
+into AI, with the goal of becoming an Agentic AI Developer and securing a well-paying role in the AI industry. I am currently learning 
+Agentic AI and MCP through Udemy and working with technologies and concepts such as Python, OpenAI, OpenRouter, Gemini, Claude, Groq APIs, 
+agent loops, prompt chaining, routing, and orchestrator patterns. I use a MacBook M1 along with Cursor IDE and Jupyter Notebook, and 
+I previously worked extensively with Xcode for iOS development. My current focus is building practical AI projects, learning agentic systems,
+and preparing for Agentic AI interviews. I am also working on improving my English fluency and have shown interest in starting a YouTube channel, 
+including learning about OBS, screen recording, and using an iPhone camera for content creation.
