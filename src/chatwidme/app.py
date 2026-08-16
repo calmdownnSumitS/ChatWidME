@@ -1,3 +1,4 @@
+from gradio import server
 from openai import OpenAI
 from context import TWIN_SYSTEM_PROMPT
 from tools import tools, handle_tool_calls
@@ -29,11 +30,21 @@ def chat(message, history):
         response = openrouter.chat.completions.create(model=MODEL_NAME, messages=messages, tools=tools)
     return response.choices[0].message.content
 
+#local
+# if __name__ == "__main__":
+#     gr.ChatInterface(
+#         chat,
+#         title="Digital Twin",
+#         description="Talk to my AI twin about my career",
+#         chatbot=gr.Chatbot(show_label=False),
+#     ).launch(inbrowser=True)
 
+
+#Production
 if __name__ == "__main__":
     gr.ChatInterface(
         chat,
         title="Digital Twin",
         description="Talk to my AI twin about my career",
         chatbot=gr.Chatbot(show_label=False),
-    ).launch(inbrowser=True)
+    ).launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7869)))
